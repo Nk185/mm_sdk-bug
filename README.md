@@ -5,7 +5,7 @@
 1. Install dependencies
 
 ```sh
-bun install
+npm install
 ```
 
 2. Run build command
@@ -32,11 +32,20 @@ npm run build
 1. Install dependencies
 
 ```sh
-bun install
+npm install
 ```
 
 2. Run `build:watch` command
 
 ```sh
-bun run build:watch
+npm run build:watch
+```
+
+### Developing without Nodejs installed
+1. Install Docker
+
+2. Run the script
+```sh
+./build_tools/watch-via-docker.sh
+
 ```
