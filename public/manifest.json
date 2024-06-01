@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "ExtensionMetamaskIntegration",
+  "description": "A test chrome extension that connects to metamask",
+  "version": "1.0",
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_icon": "favicon.png"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
